@@ -17,7 +17,7 @@ Tag: v0.0.0-scaffold
 - Set up `.claude/`: 5 subagents (researcher, implementer, reviewer, benchmarker, debugger), 5 skills (llama-cpp-integration, ring-protocol, halda-scheduler, cluster-deployment, benchmark-protocol), 4 commands (status, handoff, deploy, bench), `settings.json` wiring hooks.
 - Installed 3 hooks: `pre-tool-use.py` (blocks dangerous bash + writes to vendor/llama.cpp), `session-start.py` (injects phase + state + recent handoffs), `post-commit.py` (updates STATE.md HEAD).
 - Placed stubs: `CMakeLists.txt.TODO`, `scripts/bootstrap-dev.sh.TODO`, `src/transport/interface.h.TODO`.
-- ~66 files, 6 logical commits, tagged `v0.0.0-scaffold`.
+- ~66 files, 7 logical commits, tagged `v0.0.0-scaffold`.
 
 ## What's next
 

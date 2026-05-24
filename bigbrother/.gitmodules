@@ -1,3 +1,6 @@
+# This is a placeholder. Phase 1 task 1 will run `git submodule add` which
+# overwrites this file with the real submodule definition including the
+# pinned commit. Do not run `git submodule update --init` until then.
 [submodule "vendor/llama.cpp"]
 	path = vendor/llama.cpp
 	url = https://github.com/ggml-org/llama.cpp.git

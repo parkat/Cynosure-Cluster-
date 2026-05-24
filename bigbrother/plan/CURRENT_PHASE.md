@@ -16,3 +16,7 @@ See `plan/ROADMAP.md` § Phase 1.
 
 ## Previous phase
 **Phase 0 — Scaffolding.** Completed 2026-05-24 in session 1. See `plan/handoffs/2026-05-24-session-1-scaffold.md`.
+
+## Documented variances from spec
+
+- Skill files (`.claude/skills/*/SKILL.md`) use domain-appropriate section headers in place of the spec's "## Key APIs / formats" template header. The required content (concrete details — APIs, wire formats, etc.) is present in every skill under role-appropriate naming (e.g. ring-protocol uses `## Wire format` + `## Frame types`). This is intentional; do not rename.

@@ -35,7 +35,9 @@ Custom layer over llama.cpp's public C API. Target: 6-8 tok/s on Llama-3.3-70B.
 - Heavy research (>20 file reads or web search) → spawn researcher subagent
 - Multi-step debug across logs → spawn debugger subagent
 - PR review → spawn reviewer subagent
-- Implementation (focused work) → do it inline, don't spawn
+- Focused implementation in a clean context → spawn implementer subagent
+- Running benchmark protocols from docs/benchmarks/ → spawn benchmarker subagent
+- Implementation (focused work, main session) → do it inline, don't spawn
 
 ## When stuck
 1. Check plan/BLOCKED.md
