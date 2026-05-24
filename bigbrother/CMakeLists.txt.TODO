@@ -1,0 +1,1 @@
+# TODO Phase 1: top-level CMake. Reference vendor/llama.cpp via add_subdirectory with BUILD_SHARED_LIBS=ON.

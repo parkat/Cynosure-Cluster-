@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+# TODO Phase 1: clone submodule, build llama.cpp shared lib, build our code, run unit tests.
