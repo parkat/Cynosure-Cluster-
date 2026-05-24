@@ -12,7 +12,7 @@ No nodes online yet. Hardware assembly in progress.
 
 ## Software
 
-- HEAD commit: <updated by post-commit hook>
+- HEAD commit: 3361dd6
 - Phase: 0 (scaffolding)
 - Last benchmark: none
 
